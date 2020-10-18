@@ -1,0 +1,54 @@
+body{
+    background-color: #1da1f2;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.imagen{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.profile-name{
+    margin-left: 10px;
+}
+.username , .user{
+    margin: 0px;
+}
+.parrafo{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.date{
+    margin-bottom: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0px 0px;
+    border-top: 2px rgba(128, 128, 128, 0.11) solid;
+}
+.act, .dato1{
+    margin: 20px 0px 0px 0px;
+}
+.stat{
+    margin-right: 8px;
+}
+.action{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
